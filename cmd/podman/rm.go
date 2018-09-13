@@ -20,6 +20,10 @@ var (
 			Name:  "all, a",
 			Usage: "Remove all containers",
 		},
+		cli.BoolFlag{
+			Name:  "volumes, v",
+			Usage: "Currently a no-op",
+		},
 		LatestFlag,
 	}
 	rmDescription = fmt.Sprintf(`
